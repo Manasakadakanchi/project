@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image:  url(./img.webp);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display:inline-block;
+   
+    
+}
+ul li a {
+    text-decoration: none;
+    color:black;
+    padding:10px 10px;
+    border:3px solid blue;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color:black;
+    color:blue;
+}
+
+.logo{
+    float:left;
+    width:150px;
+    margin-top: 20px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position:absolute;
+     margin-top:50px;
+    margin-left:50px;
+}
+
+
+.title h1{
+    color:rgb(74, 74, 240);
+    position:center;
+     margin-top:50px;
+    margin-left:50px;
+
+}
+.heading{
+    text-align: center;
+    font-size: larger;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: antiquewhite ;
+
+}
+.heading:hover{
+    background-color: aquamarine;
+}
+.section{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:4rem;
+}
+
+.Service-grid{
+    margin-top: 6rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    display:flex;
+    grid-template-columns:repeat(3,1fr)
+    
+}
+.service-card{
+    padding:4px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 30px 30px 30px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.Service-grid span{
+    display:inline-block;
+    margin-bottom: 1rem;
+    padding: 30px 30px;
+    color:rgba(23, 22, 22, 0.977);
+    background-color: antiquewhite;
+    border-radius: 100%;
+    gap: 10px;
+    width:"20px";
+}
+.service-card h4{
+    margin-bottom: 10px;
+    font-size: medium;
+    color:blue
+}
+.service-card p{
+    margin-bottom: 1rem;
+    color:black;
+
+}
+
+.service-card:hover{
+    background-color:aquamarine;
+}
+.about_container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+    align-items:center;
+}
+.about_content p {
+    margin-bottom: 1rem;
+    color:black
+    
+}
+.about_content h2{
+    margin-left: 60px;
+}
+.about_image{
+    
+    margin-top: 100px;
+    border-radius: 10px;
+
+
+}
+.doctors_header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+}
+.doctors content p{
+    max-width: 60px;
+    color:aquamarine
+
+}
+.doctors_nav{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+.doctors_nav span{
+    padding: 5px 15px;
+    font-size: 10px;
+    color:bisque;
+    background-color: aqua;
+    cursor: pointer;
+}
+.doctors_grid{
+    margin-top:4rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+}
+.doctors_card{
+    text-align: center;
+    box-shadow:5px 5px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    cursor:pointer;
+    overflow:hidden;
+}
